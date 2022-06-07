@@ -5,21 +5,28 @@ import {works} from "../data/works.js"
 
 /*-------------------------------- Variables --------------------------------*/
 
-const works = {}
 
 /*------------------------ Cached Element References ------------------------*/
 
-const workSection = document.querySelector("#work-section")
+const cardContainer = document.getElementById('card-container')
+
 
 /*----------------------------- Event Listeners -----------------------------*/
-// console.log(works.image)
-works.forEach(work => 
-  console.log(work.image)
-  )
-function appendWork(work, idx) {
-  let workBox = document.createElement("div")
-}
-// works.title.push("div")
-// console.log(works.title)
 
 /*-------------------------------- Functions --------------------------------*/
+
+let worksMarkup = works.map (work =>
+  `<div class="card bg-dark text-white">
+    <img src="${work.image}" class="card-img" alt="...">
+      <div class="card-img-overlay"> 
+        <center> <h5 class="card-title">${work.title}</h5>
+         <p class="card-text">${work.description}</p>
+         <a href="${works.github}" class="btn btn-primary">GitHub</a>
+         <a href="${works.deployment}" class="btn btn-secondary">Deployment</a></center>
+  </div>
+</div>
+  
+  `
+  ).join('')
+
+  cardContainer.innerHTML = worksMarkup
