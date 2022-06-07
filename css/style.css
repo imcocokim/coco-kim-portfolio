@@ -1,5 +1,13 @@
-/* body {
-  display: flex;
-  align-items:center;
-  justify-content: flex-start;
-} */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* display: flex; */
+  /* align-items:center; */
+  /* justify-content: flex-start; */
+}
+
+div {
+  margin: 20px;
+}
+
