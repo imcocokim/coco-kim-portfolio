@@ -2,12 +2,30 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* display: flex; */
-  /* align-items:center; */
-  /* justify-content: flex-start; */
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
 }
 
-div {
-  margin: 20px;
+nav {
+  white-space: nowrap;
+  background: grey;
 }
 
+nav > ul {
+  list-style: none;
+  margin: 0;
+  position: sticky;
+  top: 20px;
+}
+
+nav > ul > li > a {
+  display: block;
+  color: white;
+  margin: 40px;
+  text-decoration: none;
+}
+
+main {
+  margin: 40px;
+}
