@@ -21,8 +21,8 @@ let worksMarkup = works.map (work =>
       <div class="card-img-overlay"> 
         <center> <h5 class="card-title">${work.title}</h5>
          <p class="card-text">${work.description}</p>
-         <a href="${works.github}" class="btn btn-primary">GitHub</a>
-         <a href="${works.deployment}" class="btn btn-secondary">Deployment</a></center>
+         <a href="${works.github}" class="btn btn-link">GitHub</a>
+         <a href="${works.deployment}" class="btn btn-link">Deployment</a></center>
   </div>
 </div>
   
