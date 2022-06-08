@@ -36,10 +36,11 @@ div {
 }
 
 #git-logo,
-#linked-logo {
+#linked-logo,
+#email-logo {
 max-width: 20%;
 height: auto;
-margin: 0 10px;
+margin: 0 5px;
 }
 
 #card-container {

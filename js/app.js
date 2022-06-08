@@ -23,10 +23,9 @@ let worksMarkup = works.map (work =>
          <p class="card-text">${work.description}</p>
          <a href="${work.github}" class="btn btn-link">GitHub</a>
          <a href="${work.deployment}" class="btn btn-link">Deployment</a></center>
+      </div>
   </div>
-</div>
-  
-  `
+   `
   ).join('')
 
   cardContainer.innerHTML = worksMarkup
