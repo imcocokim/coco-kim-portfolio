@@ -41,3 +41,18 @@ max-width: 20%;
 height: auto;
 margin: 0 10px;
 }
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 250px;
+    margin: 30px 15px 0;
+  }
+}
