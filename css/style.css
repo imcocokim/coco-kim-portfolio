@@ -34,3 +34,9 @@ main {
 div {
   margin: 10px 0;
 }
+
+#git-logo,
+#linked-logo {
+max-width: 20%;
+height: auto;
+}
