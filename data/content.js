@@ -9,9 +9,19 @@ const skills = [
 ]
 
 const contacts = [
-  '/assets/images/github-icon.png',
-  '/assets/images/LinkedIn-icon.png',
-  '/assets/images/email-icon.png'
+  {
+    link: 'https://github.com/imcocokim',
+    image:'/assets/images/github-icon.png'
+  },
+  {
+    link: 'https://www.linkedin.com/in/cocokim/',
+    image:'/assets/images/LinkedIn-icon.png'
+  },
+  {
+    link: 'mailto:imcoco@gmail.com',
+    image:'/assets/images/email-icon.png'
+  }
+  
 ]
 
 export {

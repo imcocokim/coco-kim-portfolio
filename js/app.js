@@ -36,7 +36,9 @@ let worksMarkup = works.map (work =>
   cardContainer.innerHTML = worksMarkup
 
   let contactsMarkup = contacts.map(contact =>
-    `<img src="${contact}">`
+    `<a target="_blank" href="${contact.link}">
+    <img src="${contact.image}" alt="png"></a>
+    `
   ).join('')
   
   contactCtn.innerHTML = contactsMarkup
