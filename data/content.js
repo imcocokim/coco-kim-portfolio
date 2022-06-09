@@ -3,13 +3,16 @@ const bio = [
 ]
 
 const skills = [
+  
 
 ]
 
-const contact = [
-
+const contacts = [
+  '/assets/images/github-icon.png',
+  '/assets/images/LinkedIn-icon.png',
+  '/assets/images/email-icon.png'
 ]
 
 export {
-  bio, skills, contact
+  bio, skills, contacts
 }

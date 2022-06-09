@@ -2,6 +2,8 @@
 /*-------------------------------- Constants --------------------------------*/
 
 import {works} from "../data/works.js"
+import {bio, skills, contacts} from "../data/content.js"
+
 
 /*-------------------------------- Variables --------------------------------*/
 
@@ -9,6 +11,8 @@ import {works} from "../data/works.js"
 /*------------------------ Cached Element References ------------------------*/
 
 const cardContainer = document.getElementById('card-container')
+const contactCtn = document.getElementById('contact-container')
+// const skillsCtnr = document.getElementById('skills-container')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
@@ -29,3 +33,14 @@ let worksMarkup = works.map (work =>
   ).join('')
 
   cardContainer.innerHTML = worksMarkup
+
+  let contactsMarkup = contacts.map(contact =>
+    `
+    <img src="${contact}">
+    `
+    ).join('')
+    contactCtn.innerHTML = contactsMarkup
+
+   // let skillsMarkup = skills.map(skill =>
+    
+  //   )
