@@ -9,11 +9,24 @@ body {
   color: #023047;
 }
 nav {
-  visibility: hidden;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.400);
+}
+
+ul {
+  list-style: none;
+  padding: 50px 50px 0;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  float: left;
+  margin: 10px;
 }
 
 main {
-  /* margin: 40px; */
+  margin: 40px;
   text-align: center;
 }
 
@@ -24,10 +37,9 @@ div {
 #git-logo,
 #linked-logo,
 #email-logo {
-max-width: 20%;
-height: auto;
-margin: 0 5px;
+visibility: hidden;
 }
+
 
 #card-container {
   display: flex;
@@ -57,6 +69,15 @@ margin: 0 5px;
     grid-template-columns: min-content 1fr;
   }
 
+  #git-logo,
+  #linked-logo,
+  #email-logo {
+    visibility: visible;
+    max-width: 20%;
+    /* height: auto; */
+    margin: 0 5px;
+  }
+
   #dropdownMenuButton {
     visibility: hidden;
   }
@@ -68,7 +89,6 @@ margin: 0 5px;
   nav {
     white-space: nowrap;
     background: rgba(255, 255, 255, 0.400);
-    visibility: visible;
   }
   
   ul {
@@ -83,7 +103,10 @@ margin: 0 5px;
     color: black;
     margin: 40px;
     text-decoration: none;
+    float: none;
   }
+  
+  
   
 }
 
