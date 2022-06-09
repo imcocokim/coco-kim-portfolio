@@ -8,10 +8,14 @@ body {
   margin: 0;
   color: #023047;
 }
+main {
+  margin: 40px;
+  text-align: center;
+}
 nav {
   white-space: nowrap;
-  background: rgba(255, 255, 255, .7);
-  height: 85px;
+  background: #da9359;
+  height: 65px;
   position:sticky;
   top:0;
   z-index: 3;
@@ -19,7 +23,7 @@ nav {
 
 ul {
   list-style: none;
-  padding: 20px 55px 0;
+  padding: 10px 55px 0;
 }
 
 li a {
@@ -29,10 +33,7 @@ li a {
   margin: 10px;
 }
 
-main {
-  margin: 40px;
-  text-align: center;
-}
+
 
 div {
   margin: 50px 0 0;
@@ -76,13 +77,8 @@ visibility: hidden;
   #linked-logo,
   #email-logo {
     visibility: visible;
-    max-width: 20%;
-    height: auto;
-    margin: 0 5px;
-  }
-
-  #dropdownMenuButton {
-    visibility: hidden;
+    max-width: 30%;
+    margin: 0 3px 0 0;
   }
 
   .card {
@@ -92,7 +88,6 @@ visibility: hidden;
     white-space: nowrap;
     background: rgba(255, 255, 255, 0.400);
     height: auto;
-    width: 200px;
   }
   
   ul {
@@ -100,24 +95,16 @@ visibility: hidden;
     margin: 0;
     position: sticky;
     top: 20px;
+    padding: 50px 30px 0;
   }
   
   li a {
     display: block;
     color: black;
-    margin: 40px;
+    margin-bottom: 40px;
     text-decoration: none;
     float: none;
   }
-  
-  #bio-container {
-    /* width: 50%; */
-    /* margin-left: 50px; */
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* min-width: 400px; */
-  }
-  
   
 }
 
@@ -138,7 +125,6 @@ visibility: hidden;
   #image-coco{
     float: left;
     margin-left: 100px;
-    margin-top: inherit;
   }
   #bio-container p {
     margin: 0 20px;
