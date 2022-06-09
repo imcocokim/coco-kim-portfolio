@@ -87,5 +87,8 @@ margin: 0 5px;
     display: flex;
     justify-content: space-between;
   }
+  #bio-container p {
+    margin: 0 20px;
+  }
 
 }
