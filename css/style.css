@@ -81,14 +81,20 @@ margin: 0 5px;
     float: left;
     margin-left: 100px;
   }
+  
   #bio-container {
-    width: 1000px;
-    margin-left: 400px;
+    width: 50%;
+    margin-left: 50px;
     display: flex;
     justify-content: space-between;
   }
   #bio-container p {
     margin: 0 20px;
+  }
+
+  #bio-section {
+  display: flex;
+  justify-content: center;
   }
 
 }
