@@ -4,6 +4,7 @@ html {
 body {
   background-image: url('../assets/images/background.png');
   background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   display: grid;
   grid-template-columns: min-content 1fr;
@@ -35,7 +36,7 @@ main {
 }
 
 div {
-  margin: 10px 0;
+  margin: 50px 0 0;
 }
 
 #git-logo,
@@ -58,7 +59,7 @@ margin: 0 5px;
   background-color: rgba(255, 255, 255, 0.400);
   color: black;
   text-align: left;
-  padding: 10px 20px;
+  padding: 20px;
 }
 
 #contact-container img {
@@ -73,4 +74,18 @@ margin: 0 5px;
     width: 250px;
     margin: 30px 15px 0;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+  #image-coco{
+    float: left;
+    margin-left: 100px;
+  }
+  #bio-container {
+    width: 1000px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
