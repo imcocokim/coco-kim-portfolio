@@ -1,7 +1,7 @@
 <h1><a href="https://coco-portofolio.netlify.app/">Coco Kim's Portfolio</a></h1>
+<img src="assets/images/web-portfolio.png">
 <img src="assets/images/mobile-portfolio.png">
 <img src="assets/images/mobile-dark.png">
-<img src="assets/images/web-portfolio.png">
 
 This is Coco Kim's Portfolio. There are five sections:
 <li>About Me</li>
