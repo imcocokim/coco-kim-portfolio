@@ -33,7 +33,10 @@ li a {
   margin: 10px;
 }
 
-
+li a:hover {
+  color: white;
+  transition: .4s;
+}
 
 div {
   margin: 50px 0 0;
@@ -63,7 +66,8 @@ visibility: hidden;
 #contact-container img {
   margin: 10px;
   height: 50px;
-  
+  filter: invert();
+  opacity: .8;
 }
 
 
@@ -79,6 +83,12 @@ visibility: hidden;
     visibility: visible;
     max-width: 30%;
     margin: 0 3px 0 0;
+  }
+
+  ul img:hover {
+    filter: invert();
+    opacity: .8;
+    transition: .4s;
   }
 
   .card {
