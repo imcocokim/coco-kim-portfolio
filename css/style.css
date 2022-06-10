@@ -73,10 +73,11 @@ visibility: hidden;
 }
 
 #bio-container {
-  background-color: rgba(255, 255, 255, 0.400);
+  background-color: rgba(255, 255, 255, 0.600);
   color: black;
   text-align: left;
   padding: 20px;
+  font-size: 20px;
 }
 
 #contact-container img {
