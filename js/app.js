@@ -13,7 +13,7 @@ import {bio, skills, contacts} from "../data/content.js"
 const cardContainer = document.getElementById('card-container')
 const contactCtn = document.getElementById('contact-container')
 const bioCtn = document.getElementById('bio-container')
-// const skillsCtnr = document.getElementById('skills-container')
+const skillsCtnr = document.getElementById('skills-container')
 
 /*----------------------------- Event Listeners -----------------------------*/
 
@@ -45,6 +45,8 @@ let worksMarkup = works.map (work =>
   let bioMarkup = `${bio}`
   bioCtn.innerHTML = bioMarkup
 
-   // let skillsMarkup = skills.map(skill =>
+   let skillsMarkup = skills.map(skill =>
+    `<img src="${skill.image}" alt="png">`
     
-  //   )
+    ).join('')
+    skillsCtnr.innerHTML = skillsMarkup

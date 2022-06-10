@@ -4,8 +4,13 @@ const bio = [
 ]
 
 const skills = [
+  {image: '/assets/images/js-logo.png'},
+  {image: '/assets/images/html-logo.png'},
+  {image: '/assets/images/css-logo.png'},
+  {image: '/assets/images/ai-logo.png'},
+  {image: '/assets/images/ps-logo.png'},
+  {image: '/assets/images/id-logo.png'},
   
-
 ]
 
 const contacts = [
