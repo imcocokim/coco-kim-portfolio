@@ -43,6 +43,7 @@ nav {
 ul {
   list-style: none;
   padding: 10px 55px 0;
+  overflow: hidden;
 }
 
 li a {
@@ -50,7 +51,6 @@ li a {
   text-decoration: none;
   float: left;
   margin: 10px;
-  overflow: hidden;
 }
 
 div {
