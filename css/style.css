@@ -32,10 +32,12 @@ nav {
   white-space: nowrap;
   background: var(--navbar-mobile-color);
   height: 65px;
+  width: 100%;
   position:sticky;
   top:0;
   z-index: 3;
-  white-space: nowrap;
+  font-size: 15px;
+
 }
 
 ul {
@@ -107,6 +109,12 @@ visibility: hidden;
  content: var(--light-dark-btn-content);
 }
 
+html{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     display: grid;
@@ -140,7 +148,7 @@ visibility: hidden;
     list-style: none;
     margin: 0;
     position: sticky;
-    top: 20px;
+    top: 0px;
     padding: 50px 30px 0;
   }
   
