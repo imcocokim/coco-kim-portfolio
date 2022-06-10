@@ -3,7 +3,8 @@
 <img src="assets/images/web-portfolio.png">
 <h2>Mobile preview in dark mode</h2>
 <img src="assets/images/mobile-dark.png">
-<h2><a href="https://coco-portofolio.netlify.app/">View Portfolio Here</a></h2>
+<h2>Getting Started:</h2>
+<br><h3><a href="https://coco-portofolio.netlify.app/">View Portfolio Here</a></h3></br>
 
 <p><a href="https://trello.com/b/5mpfxGSs/cocos-portfolio">Trello</a></p>
 <p><a href="https://whimsical.com/coco-s-portfolio-7hheCgZWbEan5h9Uk97G9R">Wireframe</a></p></div>
