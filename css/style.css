@@ -20,7 +20,7 @@ body {
 body.dark {
   --body-bg-image: url('../assets/images/dark-bg.png');
   --header-font-color: white;
-  --icon-filter: invert;
+  --icon-filter: brightness(0) invert(1);
   --navbar-mobile-color: rgba(255, 255, 255, 0.700);
   --inverted-btn-text-color: #2a2a2a;
   --light-dark-btn-bg: white;
@@ -96,7 +96,8 @@ visibility: hidden;
 }
 #skills-container img {
   margin: 10px;
-  opacity: .8;
+  opacity: .6;
+  filter: var(--icon-filter);
 }
 
 .btn {
