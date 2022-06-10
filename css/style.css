@@ -94,7 +94,7 @@ visibility: hidden;
 }
 #skills-container img {
   margin: 10px;
-  opacity: .6;
+  opacity: .7;
   filter: var(--icon-filter);
 }
 

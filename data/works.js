@@ -3,7 +3,7 @@ const works = [
     image: '/assets/images/ttt.png',
     title: "Tic-Tac-Toe",
     description: "A class game of tic-tac-toe.",
-    github: 'https://dayinthekitchen.wordpress.com/',
+    github: 'https://github.com/imcocokim/ttt-weekend',
     deployment: 'https://tictactoe-coco.netlify.app/'
   },
 
@@ -11,21 +11,21 @@ const works = [
     image: '/assets/images/placeholder-1.png',
     title: "Placeholder",
     description: "Click the links to see more food.",
-    github: 'https://dayinthekitchen.wordpress.com/',
+    github: 'https://www.behance.net/imcoco',
     deployment: 'https://dayinthekitchen.wordpress.com/'
   },
   {
     image: '/assets/images/placeholder-2.png',
     title: "Placeholder",
     description: "Click the links to see more food.",
-    github: 'https://dayinthekitchen.wordpress.com/',
+    github: 'https://www.behance.net/imcoco',
     deployment: 'https://dayinthekitchen.wordpress.com/'
   },
   {
     image: '/assets/images/placeholder-3.png',
     title: "Placeholder",
     description: "Click the links to see more food.",
-    github: 'https://dayinthekitchen.wordpress.com/',
+    github: 'https://www.behance.net/imcoco',
     deployment: 'https://dayinthekitchen.wordpress.com/'
   }
 ]
