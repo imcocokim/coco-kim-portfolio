@@ -15,7 +15,6 @@ const contactCtn = document.getElementById('contact-container')
 const bioCtn = document.getElementById('bio-container')
 // const skillsCtnr = document.getElementById('skills-container')
 
-
 /*----------------------------- Event Listeners -----------------------------*/
 
 /*-------------------------------- Functions --------------------------------*/

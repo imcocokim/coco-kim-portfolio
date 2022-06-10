@@ -70,6 +70,10 @@ visibility: hidden;
   opacity: .8;
 }
 
+#contact-container :hover {
+  filter: invert();
+  transition: .4s;
+}
 
 @media only screen and (min-width: 768px) {
   body {
