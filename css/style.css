@@ -6,10 +6,7 @@ body {
   --header-font-color: #094563;
   --icon-filter: none;
   --navbar-mobile-color: #da9359;
-  --inverted-btn-text-color: #eaeaea;
-  --light-dark-btn-bg: #1d1e2b;
-  --light-dark-btn-content: "Dark Mode";
-  --btn-text-color:#2a2a2a;
+  --light-dark-btn-content: url('../assets/images/light-btn.png');
   background-image: var(--body-bg-image);
   background-size: cover;
   background-attachment: fixed;
@@ -23,9 +20,8 @@ body.dark {
   --icon-filter: brightness(0) invert(1);
   --navbar-mobile-color: rgba(255, 255, 255, 0.700);
   --inverted-btn-text-color: #2a2a2a;
-  --light-dark-btn-bg: white;
-  --light-dark-btn-content: "Light Mode";
-  --btn-text-color:#eaeaea;
+  --light-dark-btn-content: url('../assets/images/dark-btn.png');
+ 
 }
 
 main {
@@ -100,22 +96,12 @@ visibility: hidden;
   filter: var(--icon-filter);
 }
 
-.btn {
-  border: none;
-  color: var(--btn-text-color);
-  font-size: 24px;
-  font-weight: 600;
-}
-
 #light-dark-button {
-  background-color: var(--light-dark-btn-bg);
-  background-image: var(--light-dark-btn-bg);
+  content: var(--light-dark-btn-bg);
 }
 
 #light-dark-button::after {
-  border: none;
-  color: var(--inverted-btn-text-color);
-  content: var(--light-dark-btn-content);
+ content: var(--light-dark-btn-content);
 }
 
 @media only screen and (min-width: 768px) {
