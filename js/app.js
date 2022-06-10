@@ -16,10 +16,18 @@ const bioCtn = document.getElementById('bio-container')
 const skillsCtnr = document.getElementById('skills-container')
 const lightDarkBtn = document.querySelector('#light-dark-button')
 const body = document.querySelector('body')
+let navLinks = document.getElementById('nav-links')
 
 
 /*----------------------------- Event Listeners -----------------------------*/
 lightDarkBtn.addEventListener("click", toggleLightDark)
+navLinks.addEventListener("mouseover", function( event ) {
+  event.target.style.color = "white"
+  
+  setTimeout(function() {
+    event.target.style.color = ""
+  }, 700)
+}, false)
 /*-------------------------------- Functions --------------------------------*/
 
 let worksMarkup = works.map (work =>
@@ -70,3 +78,4 @@ let worksMarkup = works.map (work =>
     }
 
     checkDarkPref()
+

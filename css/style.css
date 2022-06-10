@@ -49,15 +49,15 @@ li a {
   margin: 10px;
 }
 
-li a:hover {
-  color: white;
-  transition: .4s;
-}
-
 div {
-  margin: 50px 0 0;
+  margin: 20px 0 0;
 }
-
+h1,
+h2 {
+  font-family: serif;
+  font-size: 50px;
+  font-weight: 600;
+}
 #git-logo,
 #linked-logo,
 #email-logo {
