@@ -20,6 +20,7 @@
 <h2>Features:</h2>
 <li>Responsive Design</li>
 <li>Light & Dark Mode</li>
+<li>Background images designed by Coco Kim</li>
 
 
 <h2>Technologies Used:</h2>
@@ -27,6 +28,7 @@
 <li>Javascript</li>
 <li>HTML</li>
 <li>Bootstrap</li>
+<li>Favicon.io</li>
 
 <h2>Ice Box:</h2>
 <br>[] Navigation to be a hamburger menu in mobile mode</br>
