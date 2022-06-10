@@ -2,19 +2,39 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url('../assets/images/background.png');
+  --body-bg-image: url('../assets/images/background.png');
+  --header-font-color: #094563;
+  --icon-filter: none;
+  --navbar-mobile-color: #da9359;
+  --inverted-btn-text-color: #eaeaea;
+  --light-dark-btn-bg: #1d1e2b;
+  --light-dark-btn-content: "Dark Mode";
+  --btn-text-color:#2a2a2a;
+  background-image: var(--body-bg-image);
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
-  color: #094563;
+  color: var(--header-font-color);
 }
+
+body.dark {
+  --body-bg-image: url('../assets/images/dark-bg.png');
+  --header-font-color: white;
+  --icon-filter: invert;
+  --navbar-mobile-color: rgba(255, 255, 255, 0.700);
+  --inverted-btn-text-color: #2a2a2a;
+  --light-dark-btn-bg: white;
+  --light-dark-btn-content: "Light Mode";
+  --btn-text-color:#eaeaea;
+}
+
 main {
   margin: 40px;
   text-align: center;
 }
 nav {
   white-space: nowrap;
-  background: #da9359;
+  background: var(--navbar-mobile-color);
   height: 65px;
   position:sticky;
   top:0;
@@ -76,6 +96,25 @@ visibility: hidden;
 }
 #skills-container img {
   margin: 10px;
+  opacity: .8;
+}
+
+.btn {
+  border: none;
+  color: var(--btn-text-color);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#light-dark-button {
+  background-color: var(--light-dark-btn-bg);
+  background-image: var(--light-dark-btn-bg);
+}
+
+#light-dark-button::after {
+  border: none;
+  color: var(--inverted-btn-text-color);
+  content: var(--light-dark-btn-content);
 }
 
 @media only screen and (min-width: 768px) {

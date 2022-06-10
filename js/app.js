@@ -14,9 +14,12 @@ const cardContainer = document.getElementById('card-container')
 const contactCtn = document.getElementById('contact-container')
 const bioCtn = document.getElementById('bio-container')
 const skillsCtnr = document.getElementById('skills-container')
+const lightDarkBtn = document.querySelector('#light-dark-button')
+const body = document.querySelector('body')
+
 
 /*----------------------------- Event Listeners -----------------------------*/
-
+lightDarkBtn.addEventListener("click", toggleLightDark)
 /*-------------------------------- Functions --------------------------------*/
 
 let worksMarkup = works.map (work =>
@@ -50,3 +53,20 @@ let worksMarkup = works.map (work =>
     
     ).join('')
     skillsCtnr.innerHTML = skillsMarkup
+
+    function toggleLightDark() {
+      body.className = body.className === "dark" ? "" : "dark"
+    }
+    
+    function checkDarkPref () {
+      if (
+        window.matchMedia("(prefers-color-scheme:dark)").matches &&
+        body.className !=="dark"
+
+        ) {
+          toggleLightDark()
+        }
+      
+    }
+
+    checkDarkPref()
