@@ -74,6 +74,9 @@ visibility: hidden;
   filter: invert();
   transition: .4s;
 }
+#skills-container img {
+  margin: 10px;
+}
 
 @media only screen and (min-width: 768px) {
   body {
