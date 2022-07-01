@@ -107,7 +107,7 @@ visibility: hidden;
 }
 
 #light-dark-button::after {
- content: var(--light-dark-btn-content);
+  content: var(--light-dark-btn-content);
 }
 
 html{
