@@ -18,7 +18,7 @@ const works = [
     image: '/assets/images/CHEERS.png',
     title: "CHEERS",
     description: "Where users can pair their favorite songs with their favorite drinks",
-    github: 'https://github.com/Recipra/cheers-back-end',
+    github: 'https://github.com/Recipra/cheers-front-end',
     deployment: 'https://cheers-ga.netlify.app/'
   },
   {
