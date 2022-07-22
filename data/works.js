@@ -15,11 +15,11 @@ const works = [
     deployment: 'https://skeleton-kitchen.herokuapp.com/'
   },
   {
-    image: '/assets/images/placeholder-2.png',
-    title: "Placeholder",
-    description: "Click the links to see more food.",
-    github: 'https://www.behance.net/imcoco',
-    deployment: 'https://dayinthekitchen.wordpress.com/'
+    image: '/assets/images/CHEERS.png',
+    title: "CHEERS",
+    description: "Where users can pair their favorite songs with their favorite drinks",
+    github: 'https://github.com/Recipra/cheers-back-end',
+    deployment: 'https://cheers-ga.netlify.app/'
   },
   {
     image: '/assets/images/placeholder-3.png',
