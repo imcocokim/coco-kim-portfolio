@@ -22,11 +22,11 @@ const works = [
     deployment: 'https://cheers-ga.netlify.app/'
   },
   {
-    image: '/assets/images/placeholder-3.png',
-    title: "Placeholder",
-    description: "Click the links to see more food.",
-    github: 'https://www.behance.net/imcoco',
-    deployment: 'https://dayinthekitchen.wordpress.com/'
+    image: '/assets/images/potato.png',
+    title: "POTATO",
+    description: "A place where non-profit organizations can be added with their events.",
+    github: 'https://github.com/imcocokim/npo-collector',
+    deployment: 'https://npo-collector.herokuapp.com/'
   }
 ]
 
