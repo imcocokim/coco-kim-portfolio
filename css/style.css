@@ -98,6 +98,7 @@ visibility: hidden;
   height: 50px;
   filter: invert();
   opacity: .8;
+  margin-bottom: 300px;
 }
 
 #contact-container :hover {
