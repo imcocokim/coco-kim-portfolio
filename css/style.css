@@ -21,7 +21,7 @@ body.dark {
   --navbar-mobile-color: rgba(255, 255, 255, 0.700);
   --inverted-btn-text-color: #2a2a2a;
   --light-dark-btn-content: url('../assets/images/dark-btn.png');
- 
+
 }
 
 main {
@@ -83,6 +83,7 @@ visibility: hidden;
   text-align: left;
   padding: 20px;
   font-size: 17px;
+
 }
 
 #contact-container img {

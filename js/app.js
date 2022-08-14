@@ -34,13 +34,15 @@ let worksMarkup = works.map (work =>
   `<div class="card bg-dark text-white">
     <img src="${work.image}" class="card-img" alt="...">
       <div class="card-img-overlay"> 
-        <center> <h5 class="card-title">${work.title}</h5>
-         <p class="card-text">${work.description}</p>
-         <a target="_blank" href="${work.github}" class="btn btn-dark">GitHub</a>
-         <a target="_blank" href="${work.deployment}" class="btn btn-dark">Deployment</a></center>
+        <center> 
+          <h5 class="card-title">${work.title}</h5>
+          <p class="card-text">${work.description}</p>
+          <a target="_blank" href="${work.github}" class="btn btn-dark">GitHub</a>
+          <a target="_blank" href="${work.deployment}" class="btn btn-dark">Deployment</a>
+        </center>
       </div>
   </div>
-   `
+  `
   ).join('')
 
   cardContainer.innerHTML = worksMarkup
@@ -56,7 +58,7 @@ let worksMarkup = works.map (work =>
   let bioMarkup = `${bio}`
   bioCtn.innerHTML = bioMarkup
 
-   let skillsMarkup = skills.map(skill =>
+  let skillsMarkup = skills.map(skill =>
     `<img src="${skill.image}" alt="png">`
     
     ).join('')
