@@ -121,10 +121,14 @@ html{
 .bio-section,
 .skills-section,
 .works-section,
-.contact-section,
-.name-display {
-  height: 100%;
+.contact-section {
+  /* height: 10%; */
   margin-top: 300px;
+}
+
+.name-display {
+  height: 50vh;
+  margin-top: 25vh;
 }
 
 @media only screen and (min-width: 400px) {
