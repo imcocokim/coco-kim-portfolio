@@ -6,7 +6,7 @@ body {
   --header-font-color: #094563;
   --icon-filter: none;
   --navbar-mobile-color: #da9359;
-  --light-dark-btn-content: url('../assets/images/light-btn.png');
+  --light-dark-btn-content: url('../assets/images/dark-btn.png');
   background-image: var(--body-bg-image);
   background-size: cover;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body.dark {
   --icon-filter: brightness(0) invert(1);
   --navbar-mobile-color: rgba(255, 255, 255, 0.700);
   --inverted-btn-text-color: #2a2a2a;
-  --light-dark-btn-content: url('../assets/images/dark-btn.png');
+  --light-dark-btn-content: url('../assets/images/light-btn.png');
 
 }
 
