@@ -37,8 +37,8 @@ let worksMarkup = works.map (work =>
         <center> 
           <h5 class="card-title">${work.title}</h5>
           <p class="card-text">${work.description}</p>
-          <a target="_blank" href="${work.github}" class="btn btn-dark">GitHub</a>
-          <a target="_blank" href="${work.deployment}" class="btn btn-dark">Deployment</a>
+          <a target="_blank" href="${work.github}" class="btn btn-light">GitHub</a>
+          <a target="_blank" href="${work.deployment}" class="btn btn-light">Deployment</a>
         </center>
       </div>
   </div>
