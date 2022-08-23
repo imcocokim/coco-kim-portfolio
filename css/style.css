@@ -146,9 +146,8 @@ html{
   margin-top: 25vh;
 }
 
-@media only screen and (min-width: 400px) {
-
-
+footer {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
