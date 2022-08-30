@@ -2,7 +2,7 @@ const works = [
   {
     image: '/assets/images/ttt.png',
     title: "Tic-Tac-Toe",
-    description: "A class game of tic-tac-toe built with JavaScript, HTML, and CSS.",
+    description: "A classic game of tic-tac-toe built with JavaScript, HTML, and CSS.",
     github: 'https://github.com/imcocokim/ttt-weekend',
     deployment: 'https://tictactoe-coco.netlify.app/'
   },
